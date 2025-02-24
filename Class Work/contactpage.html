@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact Info</title>
+</head>
+
+<body>
+    <h1>Contact Information</h1>
+    <p>Get in touch with me.</p>
+
+    <p>
+        <input type="search" name="search" placeholder="Search..." />
+        <input type="submit" value="Search" />
+    </p>
+    
+    <form action="#" method="post">
+        <fieldset>
+            <Legend>Personal Info</Legend>
+            <label>Email:<br />
+                <input type="email" name="email" />
+            </label><br />
+            <label>Name:<br />
+                <input type="text" name="name" />
+            </label><br />
+        </fieldset>
+
+        <p>What would you like to talk about?
+            <br />
+            <select name="topic">
+                <option value="general">General Inqury</option>
+                <option value="project">Project Collabiration</option>
+                <option value="random">Random Topic</option>
+                <option value="cars">Cars</option>
+            </select>
+        </p>
+
+        <p>Leave me a message:
+            <br />
+            <textarea name="message" rows="5" cols="30"></textarea>
+        </p>
+        <input type="submit" value="Submit" /> <input type="reset" value="Clear" />
+    </form>
+    <h2>Survey</h2>
+    <form action="#" method="get">
+        <p>How did you find my portfolio?
+            <br />
+            <select name="survey">
+                <option value="google">Google</option>
+                <option value="media">Social Media</option>
+                <option value="other">Other</option>
+            </select>
+        </p>
+
+        <p>Any other comments?
+            <br />
+            <textarea name="comments" rows="5" cols="30"></textarea>
+        </p>
+        <input type="submit" value="Submit" /> <input type="reset" value="Clear" />
+</body>
+
+</html>
