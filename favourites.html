@@ -2,57 +2,106 @@
 <html>
 
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Yalin's Favourites</title>
 </head>
 
 <body>
-  <div>
+  <header>
     <h1>Yalin's Favourites</h1>
-    <p><a href="#games">Games</a> | <a href="#bands">Bands</a> | <a href="#movies">Movies</a></p>
 
-    <p><a href="index.html">Home</a></p>
-
-    <p>Welcome to my Favourites.</p>
-    <p>My favourite games are SoulsBorne and Souls-like games.
-      I got into souls games with Elden Ring, and I've been a fan ever since.
-      I like rock and metal bands like Metallica.
-      I listened to rock and metal ever since I was a kid because my parents listened to it.
-      My favourite movie is Ready Player One.
-      I watched it over and over during the Covid-19 lockdown.
-    </p>
-  </div>
-
-  <div>
-    <h2 id="games">My Favourite Games</h2>
-    <ol>
-      <li>Dark Souls 3</li>
-      <li>Bloodborne</li>
-      <li>Elden Ring</li>
-    </ol>
-  </div>
-
-  <div>
-    <h2 id="bands">My Favourite Bands</h2>
+  <nav>
     <ul>
-      <li>Metallica</li>
-      <li>Avenged Sevenfold</li>
-      <li>Korn</li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#games">Games</a></li>
+      <li><a href="#bands">Bands</a></li>
+      <li><a href="#movies">Movies</a></li>
     </ul>
-  </div>
+  </nav>
+  </header>
 
-  <div>
-    <h2 id="movies">My Favourite Movies</h2>
-    <dl>
-      <dt>Ready Player One</dt>
-      <dd>Ready Player One is a science fiction action-adventure film directed by Steven Spielberg.</dd>
-      <br>
-      <dt>Taladega Nights</dt>
-      <dd>Taladega Nights is a comedy film directed by Adam McKay.</dd>
-      <br>
-      <dt>Tokyo Drift</dt>
-      <dd>Tokyo Drift is a action film directed by Justin Lin.</dd>
-    </dl>
-  </div>
+  <main>
+    <section>
+      <p>Welcome to my Favourites.</p>
+      <p>My favourite games are SoulsBorne and Souls-like games.
+        I got into souls games with Elden Ring, and I've been a fan ever since.
+        I like rock and metal bands like Metallica.
+        I listened to rock and metal ever since I was a kid because my parents listened to it.
+        My favourite movie is Ready Player One.
+        I watched it over and over during the Covid-19 lockdown.
+      </p>
+    </section>
+
+    <section>
+        <h2 id="games">My Favourite Games</h2>
+      <ol>
+        <li>Dark Souls 3</li>
+        <li>Bloodborne</li>
+        <li>Elden Ring</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2 id="bands">My Favourite Bands</h2>
+      <ul>
+        <li>Metallica</li>
+        <li>Avenged Sevenfold</li>
+        <li>Korn</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2 id="movies">My Favourite Movies</h2>
+      <dl>
+        <dt>Ready Player One</dt>
+        <dd>Ready Player One is a science fiction action-adventure film directed by Steven Spielberg.</dd>
+        <br>
+        <dt>Taladega Nights</dt>
+        <dd>Taladega Nights is a comedy film directed by Adam McKay.</dd>
+        <br>
+        <dt>Tokyo Drift</dt>
+        <dd>Tokyo Drift is a action film directed by Justin Lin.</dd>
+      </dl>
+    </section>
+  </main>
 </body>
 
 </html>
+
+<style>
+  html {
+    background-color: rgb(200, 200, 200);
+    font-family: Arial, Verdana, sans-serif;
+  }
+  header {
+    color: rgb(255, 255, 255); 
+    background-color: rgb(45, 45, 45);
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+  }
+  nav ul li {
+   list-style-type: none;
+    padding: 10;
+    display: inline;
+    margin-right: 10px;
+  }
+  nav a {
+    color : rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  section {
+    background-color: rgb(150, 150, 150);
+    border-style: solid;
+    border-color : rgb(0, 0, 0);
+    margin: 5px;
+    text-indent: 10px;
+  }
+  h2 {
+    color: rgb(40, 40, 40);
+    text-decoration: underline;
+  }
+</style>

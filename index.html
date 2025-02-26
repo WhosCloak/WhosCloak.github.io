@@ -2,27 +2,87 @@
 <html>
 
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home</title>
 </head>
 
 <body>
-  <div id="home">
+  <header>
     <h1> Yalin Tiringa</h1>
+    <p>Welcome to my Webpage. I'm learning HTML.</p>
+    <nav>
+      <ul>
+        <li><a href="#currentinterests">My Current Interests</a></li>
+        <li><a href="#favourites">Favourites</a></li>
+        <li><a href="#vacation">Vacation</a></li>
+        <li><a href="#currentinterests">Current Interests</a></li>
+        <li><a href="#schedule">Weekly Schedule</a></li>
+      </ul>
+    </nav>
+  </header>
 
-    <p>Welcome to my Webpage.</p>
-    <p> I'm Learning HTML.</p>
-    <p><a href="#favourites">Favourites</a> | <a href="#vacation">Vacation</a></p> 
-  </div>
+  <main>
+    <section>
+      <h2 id="currentinterests">My Current Interests</h2>
+      <p><a href="currentinterests.html">Click here to see my current Interests</a></p>
+    </section>
+    
+    <section>
+      <h2 id="favourites">My Favourite Games, Bands and Movies</h2>
+      <p><a href="favourites.html">Click here to see my favourites</a></p>
+    </section>
 
-  <div id="favourites">
-    <h2 id="favourites">My favourite games, bands and movies.</h2>
-    <p><a href="favourites.html">My Favourites</a></p>
-  </div>
+    <section>
+      <h2 id="vacation">My Dream Vacation</h2>
+      <p><a href="vacation.html">Click here to see my vacation</a></p>
+    </section>
 
-  <div id="vacation">
-    <h2 id="vacation">My dream vacation.</h2>
-    <p><a href="vacation.html">Vacation</a></p>
-  </div>
+    <section>
+      <h2 id="schedule">My Weekly Schedule</h2>
+      <p><a href="weeklyschedule.html">Click here to see my weekly schedule</a></p>
+    </section>
+  </main>
 </body>
 
 </html>
+
+<style>
+  html {
+    background-color: rgb(200, 200, 200);
+    font-family: Arial, Verdana, sans-serif;
+  }
+  header {
+    color: rgb(255, 255, 255); 
+    background-color: rgb(45, 45, 45);
+    border-style: solid; 
+    border-color: rgb(0, 0, 0);
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+  }
+  nav ul li  {
+    list-style-type: none;
+    padding: 0;
+    display: inline;
+    margin-right: 10px;
+  }
+  nav a {
+    color : rgb(255, 255, 255)
+  }
+  section {
+    background-color: rgb(150, 150, 150);
+    border-style: groove;
+    border-color : rgb(255, 255, 255);
+    margin: 5px;
+    text-indent: 10px;
+  }
+  h2 {
+    color: rgb(40, 40, 40);
+    text-decoration: underline;
+  }
+  a {
+    color: rgb(0, 100, 200);
+    text-decoration: none;
+  }
+</style>

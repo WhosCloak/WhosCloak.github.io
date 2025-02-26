@@ -2,89 +2,125 @@
 <html>
 
 <head>
-    <title>Weekly Schedule</title>
-    <style>
-        td {
-            background-color: green;
-            color: white;
-        }
-
-        th {
-            background-color: blue;
-            color: white;
-        }
-
-        table {
-            border: 2px solid black;
-            text-align: center;
-        }
-    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yalin's Weekly Schedule</title>
 </head>
 
 <body>
-    <h1>Weekly Schedule</h1>
-    <p><a href="index.html">Home</a></p>
-    <table>
-        <tr>
-            <th></th>
-            <th>Monday</th>
-            <th>Tuesday</th>
-            <th>Wednesday</th>
-            <th>Thursday</th>
-            <th>Friday</th>
-            <th>Saturday</th>
-            <th>Sunday</th>
-        </tr>
+    <main>
+        <header>
+            <h1>Yalin's Weekly Schedule</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <h2>My Weekly Schedule</h2>
+            <p>
+                This is my weekly schedule. I have a lot of things to do during the week. I have classes, work, gym,
+                homework, and I also like to play video games and watch anime. I also like to go out to eat with my
+                friends.
+            </p>
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                    <th>Sunday</th>
+                </tr>
 
-        <tr>
-            <th>Morning</th>
-            <td colspan="4" rowspan="2">Class</td>
-            <td rowspan="2">Work</td>
-            <td>Elden Ring</td>
-            <td rowspan="3">Anime Day</td>
-        </tr>
+                <tr>
+                    <th>Morning</th>
+                    <td colspan="4" rowspan="2">Class</td>
+                    <td rowspan="2">Work</td>
+                    <td>Gaming</td>
+                    <td rowspan="3">Anime Day</td>
+                </tr>
 
-        <tr>
-            <th>Afternoon</th>
-            <td>Going out to eat</td>
-        </tr>
+                <tr>
+                    <th>Afternoon</th>
+                    <td>Going out to eat</td>
+                </tr>
 
-        <tr>
-            <th>Evening</th>
-            <td>Gym</td>
-            <td>Homework</td>
-            <td>Gym</td>
-            <td>Homework</td>
-            <td colspan="2">Elden Ring</td>
-        </tr>
-    </table>
-
-    <h2>Upcoming Events</h2>
-    <table>
-        <tr>
-            <th>Event</th>
-            <th>Date</th>
-            <th>Time</th>
-        </tr>
-
-        <tr>
-            <td rowspan="2">Animeverse 2025 Convention</td>
-            <td>Feb 15<sup>th</sup></td>
-            <td>10:00 AM</td>
-        </tr>
-
-        <tr>
-            <td>Feb 16<sup>th</sup></td>
-            <td>10:00 AM</td>
-        </tr>
-
-        <tr>
-            <td>Metallica Concert</td>
-            <td>Jun 14<sup>th</sup></td>
-            <td>6:00 PM</td>
-        </tr>
-    </table>
-
+                <tr>
+                    <th>Evening</th>
+                    <td>Gym</td>
+                    <td>Homework</td>
+                    <td>Gym</td>
+                    <td>Homework</td>
+                    <td colspan="2">Gaming</td>
+                </tr>
+            </table>
+        </section>
+    </main>
 </body>
 
 </html>
+
+<style>
+    html {
+        background-color: rgb(200, 200, 200);
+        font-family: Arial, Verdana, sans-serif;
+    }
+
+    header {
+        color: rgb(255, 255, 255);
+        background-color: rgb(45, 45, 45);
+        border-style: solid;
+        border-color: rgb(0, 0, 0);
+        margin: 10px;
+        padding: 5px;
+        text-align: center;
+    }
+
+    nav ul li {
+        list-style-type: none;
+        padding: 0;
+        display: inline;
+        margin-right: 10px;
+    }
+
+    nav a {
+        color: rgb(255, 255, 255)
+    }
+    h2 {
+    color: rgb(40, 40, 40);
+    text-decoration: underline;
+    text-align: center;
+  }
+  p {
+    text-indent: 10px;
+    border-style: double;
+  }
+  a {
+    color: rgb(0, 100, 200);
+    text-decoration: none;
+  }
+  table {
+    background-color: rgb(255, 255, 255);
+    margin: 10px auto;
+    border-style: solid;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 150%;
+  }
+  th {
+    background-color: rgb(0, 100, 200);
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+  }
+  td {
+    background-color: rgb(40, 40, 40);
+    color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    padding: 5px;
+    }
+</style>
