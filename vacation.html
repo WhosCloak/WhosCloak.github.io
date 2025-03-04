@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="styles/styles.css" rel="stylesheet" type="text/css" />
   <title>Yalin's Vacation to Tokyo, Japan</title>
 </head>
 
@@ -19,7 +20,7 @@
     </header>
 
     <section>
-      <img src="Images/destination_tokyo.jpg" alt="Tokyo skyline" />
+      <img class="tokyo" src="Images/destination_tokyo.jpg" alt="Tokyo skyline" />
       <p>
         I would like to visit Tokyo because I like jdm cars and the car culture is more interesting.
         Also I'd like to see the history of Japan and the beautiful scenery.
@@ -28,7 +29,7 @@
 
     <section>
       <h2>Main Reason Why I want to visit Japan</h2>
-      <video src="Videos/tokyodrift.mp4" poster="Images/skyline.jpg" width="400" preload controls loop autoplay muted>
+      <video class="drift" src="Videos/tokyodrift.mp4" poster="Images/skyline.jpg" width="400" preload controls loop autoplay muted>
         <p>Your browser does not support the video tag.</p>
       </video>
       <hr />
@@ -37,7 +38,7 @@
     <section>
       <h2>Map to the most popular car meet in Daikoku</h2>
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12998.851151050485!2d139.66918123571503!3d35.461904295627825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60185d7092f37e6f%3A0xf526152a55b3d3a6!2sDaikoku%20Parking%20Area!5e0!3m2!1sen!2sus!4v1738774642655!5m2!1sen!2sus"
+        class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12998.851151050485!2d139.66918123571503!3d35.461904295627825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60185d7092f37e6f%3A0xf526152a55b3d3a6!2sDaikoku%20Parking%20Area!5e0!3m2!1sen!2sus!4v1738774642655!5m2!1sen!2sus"
         width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
@@ -45,60 +46,3 @@
 </body>
 
 </html>
-
-<style>
-  html {
-    background-color: rgb(200, 200, 200);
-    font-family: Arial, Verdana, sans-serif;
-  }
-
-  header {
-    color: rgb(255, 255, 255);
-    background-color: rgb(45, 45, 45);
-    border-style: solid;
-    border-color: rgb(0, 0, 0);
-    margin: 10px;
-    padding: 5px;
-    text-align: center;
-  }
-
-  nav ul li {
-    list-style-type: none;
-    padding: 0;
-    display: inline;
-    margin-right: 10px;
-  }
-
-  nav a {
-    color: rgb(255, 255, 255)
-  }
-  h2 {
-    color: rgb(40, 40, 40);
-    text-decoration: underline;
-    text-align: center;
-  }
-  a {
-    color: rgb(0, 100, 200);
-    text-decoration: none;
-  }
-  img {
-    margin: 0 auto;
-    display: block;
-    width: 95%;
-    border-style: groove;
-  }
-  p {
-    border-style: ridge;
-    font-size: 21px;
-  }
-  video {
-    margin: 0 auto;
-    display: block;
-    width: 80%;
-  }
-  iframe {
-    margin: 0 auto;
-    display: block;
-    width: 100%;
-  }
-</style>
