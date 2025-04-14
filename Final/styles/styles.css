@@ -6,18 +6,50 @@
     text-align: center;
 }
 
+header {
+    background-color: rgba(80, 80, 80, 0.8);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 20px 0;
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    margin: 0 40px;
+
+}
+
 ul li {
     list-style: none;
     display: inline;
 }
 
+a {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    padding: 10px;
+}
+
 body {
-    background-color: rgb(40, 40, 40);
     color: rgb(255, 255, 255);
 }
 
 main {
-    margin-top: 100px;
+    margin-top: 150px;
+}
+
+section {
+    margin: 25px;
+    font-size: 2em;
+    background-color: rgba(80, 80, 80, 0.8);
+    border-radius: 10px;
 }
 
 #park-image {
@@ -28,5 +60,4 @@ main {
     top: 0;
     left: 0;
     z-index: -1;
-
 }
