@@ -7,14 +7,13 @@
 }
 
 header {
-    background-color: rgba(80, 80, 80, 0.8);
-    border-radius: 10px;
-    padding: 10px;
+    background-color: rgba(80, 150, 80, 0.9);
+    padding: 5px;
 }
 
 h1 {
-    font-size: 3em;
-    margin: 20px 0;
+    font-size: 2em;
+    margin: 20px;
     color: rgb(255, 255, 255);
     text-decoration: underline;
 }
@@ -29,6 +28,7 @@ nav ul li {
 ul li {
     list-style: none;
     display: inline;
+    margin: 0 40px;
 }
 
 a {
@@ -37,18 +37,21 @@ a {
     padding: 10px;
 }
 
+a:hover {
+    color: rgb(0, 255, 0);
+    text-decoration: none;
+}
+
 body {
     color: rgb(255, 255, 255);
 }
 
-main {
-    margin-top: 150px;
-}
 
 section {
-    margin: 25px;
+    margin: 20px 20px 0;
+    padding: 20px;
     font-size: 2em;
-    background-color: rgba(80, 80, 80, 0.8);
+    background-color: rgba(100, 100, 100, 0.9);
     border-radius: 10px;
 }
 
@@ -60,4 +63,24 @@ section {
     top: 0;
     left: 0;
     z-index: -1;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    nav ul li {
+        margin: 0 20px;
+    }
+
+    a {
+        font-size: 20px;
+    }
+
+    section {
+        font-size: 1.5em;
+        padding: 10px;
+    }
+
 }
