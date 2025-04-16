@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Verdana, Tahoma, sans-serif;
+    font-family: special-gothic, sans-serif;
     text-align: center;
 }
 
@@ -12,7 +14,7 @@ header {
 }
 
 h1 {
-    font-size: 2em;
+    font-size: 3em;
     margin: 20px;
     color: rgb(255, 255, 255);
     text-decoration: underline;
