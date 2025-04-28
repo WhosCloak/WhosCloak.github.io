@@ -16,42 +16,52 @@
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="visitus.html">Visit</a></li>
       </ul>
     </nav>
   </header>
-  <div class="container">
-    <section class="info">
-      <h2>Visit Us OR Contact</h2>
-      <p></p>
 
-      <h2><u>Address</u></h2>
-      <p>3449 Pearland Pkwy, Pearland, TX 77581 </p>
-
-      <h2><u>Hours of Operation</u></h2>
-      <p>Open Daily: 6:00 AM-10:00 PM</p>
-
-      <h2><u>Located</u></h2>
+  <main>
+    <section class="location">
+      <h2>Visit Us</h2>
       <iframe
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3471.053484987319!2d-95.26992061335814!3d29.543936678127093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86409055b7340883%3A0x93d531e53e90f7ef!2sIndependence%20Park!5e0!3m2!1sen!2sus!4v1744829568694!5m2!1sen!2sus"
-        width="1000" height="450" style="border:0" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="hours-of-operation">
+      <h2>Hours of Operation</h2>
+      <p class="visit-text">Open Daily: 6:00 AM-10:00 PM</p>
     </section>
 
     <section class="contact-info">
-      <h2><u>Contact Us</u></h2>
-      <p><a href="tel:2814128900S">(281) 412-8900</a></p>
+      <h2>Contact Us</h2>
+      <p class="visit-text">Call for more Information at <a href="tel:2814128900S">(281) 412-8900</a></p>
     </section>
 
     <section class="contact-form">
-      <h2><u>Contact Infomation</u></h2>
+      <h2>Contact Information</h2>
       <form action="#" method="post">
-        <input type="text" name="name" placeholder="Your Name" required />
-        <input type="email" name="email" placeholder="Your Email" required />
-        <textarea name="message" placeholder="Your Message" required></textarea>
+        <label>
+          <input type="text" name="name" placeholder="Your Name" required />
+        </label>
+
+        <label>
+          <input type="email" name="email" placeholder="Your Email" required />
+        </label>
+
+        <label>
+          <textarea name="message" placeholder="Your Message" required></textarea>
+        </label>
+
         <button type="submit">Submit</button>
       </form>
     </section>
-  </div>
 
+    <footer>
+      <p>&copy; 2025 YT & HG</p>
+    </footer>
+  </main>
 </body>
 
 </html>

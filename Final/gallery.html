@@ -2,8 +2,8 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Gallery</title>
   <link href="styles/styles.css" rel="stylesheet" />
 </head>
@@ -15,63 +15,69 @@
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
         <li><a href="visitus.html">Visit</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <div class="gallery-container">
-      <section>
+    <div class="gallery-grid">
+      <section class="gallery-item">
         <a href="images/basketball.jpg" target="_blank">
-          <img src="images/basketball.jpg" alt="Basketball" id="gallery-image">
+          <img src="images/basketball.jpg" alt="Basketball" class="gallery-image" />
         </a>
-        <p>Basketball Court</p>
-        <p id="desc">The pavilion at Independence Park doubles as three full-court basketball courts. Beneath the shaded
+        <h2>Basketball Court</h2>
+        <p>The pavilion at Independence Park doubles as three full-court basketball courts. Beneath the shaded
           structure, athletes of all ages can have fun shooting hoops here.</p>
       </section>
-      <section>
-        <a href="images/park.jpg" target="_blank">
-          <img src="images/park.jpg" alt="Park" id="gallery-image">
-        </a>
-        <p>Playground</p>
-        <p id="desc">The "Independence" playground system is a commercial playground offering a variety of activities
-          for children of various ages. It features multiple slides, climbing structures, and interactive panels,
-          designed to engage children in both physical and social play. </p>
-      </section>
-      <section>
-        <a href="images/trails.jpg" target="_blank">
-          <img src="images/trails.jpg" alt="Trails" id="gallery-image">
-        </a>
-        <p>Trail</p>
-        <p id="desc"> a trail within Independence Park, a recently renovated park offering various recreational and
-          event spaces.</p>
-      </section>
-      <section>
-        <a href="images/tennis.jpg" target="_blank">
-          <img src="images/tennis.jpg" alt="Tennis" id="gallery-image">
-        </a>
-        <p>Tennis Court</p>
-        <p id="desc"> the venue where the sport of tennis is played. It is a firm rectangular surface with a low net
-          stretched across the center. The same surface can be used to play both doubles and singles matches.</p>
-      </section>
-      <section>
-        <a href="images/tunnel.jpg" target="_blank">
-          <img src="images/tunnel.jpg" alt="Tunnel" id="gallery-image">
-        </a>
-        <p>Tunnel</p>
-        <p id="desc">The mural in and around the tunnel along the berm boasts vibrant colors while noting what makes
-          Pearland, well, Pearland.</p>
-      </section>
-      <section>
-        <a href="images/creators.png" target="_blank">
-          <img src="images/creators.png" alt="Creators" id="gallery-image">
-        </a>
-        <p>The Creators at The Park</p>
-        <p id="desc">Two creator met up at Independence Park on easter to capture the Event.</p>
 
+      <section class="gallery-item">
+        <a href="images/park.jpg" target="_blank">
+          <img src="images/park.jpg" alt="Park" class="gallery-image" />
+        </a>
+        <h2>Playground</h2>
+        <p>The "Independence" playground system offers a variety of activities for children of all ages with multiple
+          slides, climbing structures, and interactive panels.</p>
+      </section>
+
+      <section class="gallery-item">
+        <a href="images/trails.jpg" target="_blank">
+          <img src="images/trails.jpg" alt="Trails" class="gallery-image" />
+        </a>
+        <h2>Trail</h2>
+        <p>A trail within Independence Park, providing beautiful pathways for recreational use and event spaces.</p>
+      </section>
+
+      <section class="gallery-item">
+        <a href="images/tennis.jpg" target="_blank">
+          <img src="images/tennis.jpg" alt="Tennis" class="gallery-image" />
+        </a>
+        <h2>Tennis Court</h2>
+        <p>A firm rectangular court where both doubles and singles matches are played at Independence Park.</p>
+      </section>
+
+      <section class="gallery-item">
+        <a href="images/tunnel.jpg" target="_blank">
+          <img src="images/tunnel.jpg" alt="Tunnel" class="gallery-image" />
+        </a>
+        <h2>Tunnel Mural</h2>
+        <p>The vibrant mural around the tunnel showcases Pearland's spirit with colorful artwork.</p>
+      </section>
+
+      <section class="gallery-item">
+        <a href="images/creators.png" target="_blank">
+          <img src="images/creators.png" alt="Creators" class="gallery-image" />
+        </a>
+        <h2>The Creators</h2>
+        <p>Two creators capturing moments during Easter festivities at Independence Park.</p>
       </section>
     </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 YT & HG</p>
+  </footer>
 </body>
 
 </html>
